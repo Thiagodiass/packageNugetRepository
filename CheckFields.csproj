@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>WorkInWise.Utilities.CheckFields</PackageId>
+    <Authors>WorkInWise</Authors>
+    <Company>WorkInWise</Company>
+    <Description>Library to check if is valid inputs</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Check, CheckField, validation fields</PackageTags>
+    <RepositoryUrl></RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
