@@ -5,6 +5,7 @@ namespace CheckFields
 {
     public class CheckFields
     {
+        #region Private methods
         private bool CheckPassword(string password)
         {
             bool isValid = true;
@@ -30,6 +31,8 @@ namespace CheckFields
             }
             return isValid;
         }
+        #endregion
+        #region Public Method
         public bool IsValid(string user, string password)
         {
             bool isValidPassword = CheckPassword(password);
@@ -40,5 +43,6 @@ namespace CheckFields
             }
             return false;
         }
+        #endregion
     }
 }
